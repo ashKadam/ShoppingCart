@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Context path="/ShoppingCart">
+    <Resource auth="Container" 
+        driverClassName="com.mysql.jdbc.Driver" 
+        name="jdbc/read_that_book" 
+        password="MyNewPass" 
+        type="javax.sql.DataSource" 
+        url="jdbc:mysql://localhost:3306/read_that_book" 
+        username="root"/>
+</Context>
