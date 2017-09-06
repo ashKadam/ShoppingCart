@@ -105,24 +105,24 @@ public class ApplicationContextConfig {
         HibernateTransactionManager transactionManager = new HibernateTransactionManager(sessionFactory);
         return transactionManager;
     }
-    
-    @Bean(name = "accountDAO")
-    public AccountDAO getApplicantDAO() {
-        return new AccountDAOImpl();
-}
-
-    @Bean(name = "productDAO")
-    public ProductDAO getProductDAO() {
-        return new ProductDAOImpl();
-    }
-
-    @Bean(name = "orderDAO")
-    public OrderDAO getOrderDAO() {
-        return new OrderDAOImpl();
-    }
-
-    @Bean(name = "accountDAO")
-    public AccountDAO getAccountDAO(){
-        return new AccountDAOImpl();
-    }
+//    
+//    @Bean(name = "accountDAO")
+//    public AccountDAO getApplicantDAO() {
+//        return new AccountDAOImpl();
+//}
+//
+//    @Bean(name = "productDAO")
+//    public ProductDAO getProductDAO() {
+//        return new ProductDAOImpl();
+//    }
+//
+//    @Bean(name = "orderDAO")
+//    public OrderDAO getOrderDAO() {
+//        return new OrderDAOImpl();
+//    }
+//
+//    @Bean(name = "accountDAO")
+//    public AccountDAO getAccountDAO(){
+//        return new AccountDAOImpl();
+//    }
 }
